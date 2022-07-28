@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    width: 100%;
+   
+ 
+   
+
+}
+
+.navlist {
+    width: 70%;
+
+    display: flex;
+
+    align-items: center;
+    padding-right: 150px;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.rightnav {
+    width: 30%;
+  padding-left: 23px;
+  padding-right:23px;
+    text-align: right;
+    color: #fff;
+}
+#search{
+    color: #fff;
+}
+
+.logo img {
+    display: flex;
+    width: 20%;
+    border-radius: 100%;
+    margin-left: 20%;
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 15px;
+    border: 0.5px solid gray;
+    border-radius: 9px;
+    background-color: transparent;
+}
+#search:hover{
+    border: 2px ;
+    font-size: 15px;
+}
+.logo img :hover{
+    border: 2px white;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url("images/people\'s\ architecture\ office\ organizes\ residential\ complex\ in\ china\ as\ a\ city\ skyline.jfif");
+  
+    background-blend-mode: darken;
+ 
+
+}
+
+.background1 {
+    background: rgba(0, 0, 0, 0.87)  url("images/skyjpg.jpg")  ;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+}
+
+
+.boxmain {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.firstsection {
+    height: 70vh;
+    padding-top: 10%;
+   
+}
+
+.firsthalf {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf img{
+    width: 20%;
+height: 250px;
+width: 250px;
+border-radius: 150px;
+margin-left: 10%;
+border: 3px solid white;
+}
+.textbig{
+font-size: 41px;
+text-align: center;
+}
+.textsmall{
+font-size: 18px;
+text-align: center;
+}
+.btn1{
+    
+    background-color: transparent;
+    width: 8rem ;
+    
+    margin-top: 5%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px, 2px, 15px;
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.btn2{
+    margin-left: 32%;
+}
+.btn{
+      width: 80px ;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px, 2px, 15px;
+    color: #fff;
+   height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.secright{
+ height: 350px;
+ display:flex;
+ align-items: center;
+ justify-content: space-evenly;
+ max-width: 80%;
+ margin: auto;
+
+}
+.secleft{
+ height: 350px;
+ display:flex;
+ align-items: center;
+ justify-content: space-evenly;
+ max-width: 80%;
+ margin: auto;
+
+}
+.imgfluid{
+    height: 300px;
+    width: 300px;
+    height: 250px;
+border-radius: 50px;
+margin-left: 10%;
+border: 3px solid black;
+}
+.thumbnail{
+    margin-right: 40px;
+}
+.textbig{
+    padding-bottom: 30px;
+}
+hr{
+ border: dotted gray 6px;
+ border-bottom: none;
+ width: 4%;
+ margin: auto;
+   
+    
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+    
+    max-width: 334px;
+    margin: auto;
+
+}
+.form input{
+    width: 100%;
+    border: solid gray;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 23px;
+    font-family: serif;
+}
+
+.btn3{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    font-size: 20px;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: 3px solid black;
+    box-shadow: 2px, 2px, 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: rgba(0, 0, 0, 1);
+
+}
+#text{
+    width: 100%;
+    border: solid gray;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 33px;
+   font-family: serif;
+}
+.btn1:hover{
+background-color: white;
+color: black;
+}
+.btn:hover{
+background-color: white;
+color: black;
+}
+.text{
+    text-align: center;
+    justify-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aliceblue;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+    border-radius: 4px;
+    border: 2px white;
+}
+.line{
+    width:33px ;
+    background-color:white ;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 2px;
+    
+}
+
+@media only screen and (max-width: 1148px) {
+  
+    .navbar{
+        flex-direction: column;
+        transition: all .7s ease-out;
+        height: 478px;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    .logo img {
+        display: flex;
+        width: 12%;
+        border-radius: 100%;
+        margin: auto;
+   
+    
+    }
+    #search{
+        color: #fff;
+        margin-left: -90px;
+        width: 70%;
+    }
+    .burger{
+        display: block;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .h-class{
+
+        height: 60px;
+    }
+    .secondhalf img{
+        width: 0;
+        opacity: 0;
+    }
+    .btn2{
+        margin-left: 30%;
+    }
+   .secleft{
+        flex-direction: column;
+       height: 500px;
+    }
+   .secright{
+        flex-direction: column-reverse;
+       height: 500px;
+    }
+    .imgres{
+        height: 150px;
+        width: 150px;
+    }
+    .res{
+        margin-top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .btn1{
+        margin-left: 90px;
+    }
+}
